@@ -2,7 +2,7 @@
 name = "fastapi-p31"
 version = "0.1.0"
 description = "Add your description here"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "alembic>=1.17.0",
     "apache-libcloud>=3.8.0",

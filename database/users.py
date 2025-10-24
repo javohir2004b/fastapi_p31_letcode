@@ -18,3 +18,5 @@ class User(IDBaseModel, CreatedBaseModel):
         from utils.security import get_password_hash
         kwargs['password'] = get_password_hash(kwargs.get('password'))
         return await super().create(**kwargs)
+
+
